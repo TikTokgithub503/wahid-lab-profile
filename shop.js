@@ -37,7 +37,7 @@ function spo() {
 }
 //canva
 function cnv() {
-  var cnv = confirm("╭───────────────\n┊ Produk : Canva\n┊・Stok Tersedia : 200+\n┊・Desk : 1  bulan, garansi 7 hari!\n┊ Harga : Rp6.000╰───────────────\nIngin Memesan? klik oke")
+  var cnv = confirm("╭───────────────\n┊ Produk : Canva\n┊・Stok Tersedia : 200+\n┊・Desk : 1  bulan, garansi 7 hari!\n┊ Harga : Rp6.000\n╰───────────────\nIngin Memesan? klik oke")
   if (cnv) {
     window.location = "https://wa.me/62895328184015?text=Mau+Order+Canva~"
   } else {
